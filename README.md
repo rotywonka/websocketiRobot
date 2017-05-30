@@ -17,7 +17,7 @@ Setup rosbridge  [one separate window]
 
 ```
 
-Start python webserver  [one separate window]
+Start python webserver  [one separate window]  
 
 ```
     
@@ -30,3 +30,23 @@ Start python webserver  [one separate window]
     **open browser with your ip address and port 8080**
 
 ```
+
+Turning on kinect  
+
+```
+       apt-cache search openni | grep ros
+       sudo apt-get install ros-kinetic-openni2-launch
+       apt-cache search web | grep video
+       sudo apt-get install ros-kinetic-web-video-server
+       roslaunch openni2_launch openni2.launch
+       
+```
+
+*in another tab* Connect to web_video_server
+
+```
+
+       rosrun web_video_server web_video_server
+
+```
+       
