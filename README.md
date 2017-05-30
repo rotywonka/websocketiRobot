@@ -1,6 +1,6 @@
 # websocketiRobot
 
-Connecting to iRobot
+Connecting to iRobot [one separate window]
 
 ```
    cd create_ws/
@@ -9,7 +9,7 @@ Connecting to iRobot
 
 ```
 
-Setup rosbridge
+Setup rosbridge  [one separate window]
 
 ```
     sudo apt-get install ros-kinetic-rosbridge-suite -y
@@ -17,7 +17,7 @@ Setup rosbridge
 
 ```
 
-Start python webserver
+Start python webserver  [one separate window]
 
 ```
     
