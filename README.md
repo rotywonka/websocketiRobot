@@ -20,11 +20,13 @@ Setup rosbridge
 Start python webserver
 
 ```
-    mkdir html
+    
     git clone https://github.com/rotywonka/websocketiRobot/
+    mv websocketiRobot html 
     cd html
     nano test2.html
     **change url to ip address [url : 'ws://[ip address]:9090']**
-    
+    python -m SimpleHTTPServer 8080
+    **open browser with your ip address and port 8080**
 
 ```
