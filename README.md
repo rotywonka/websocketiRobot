@@ -42,7 +42,7 @@ Turning on kinect
        
 ```
 
-*in another tab* Connect to web_video_server
+*in another tab* Connect to web_video_server (assumes that you turned on kinect already)
 
 ```
 
